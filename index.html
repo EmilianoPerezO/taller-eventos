@@ -5,17 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        #idDiv {
+            padding: 5px;
+            background-color: green;
+            display: inline-block;
+        }
+    </style>
 </head>
 
 <body>
-
-    <button onclick="saludo()">Saludar</button>
-
-    <script>
-        function saludo() {
-            alert('Hola!');
-        }
-    </script>
+    <div id="idDiv">
+        <button onclick="saludo()">Saludar</button>
+    </div>
+    <script src="eventos.js"></script>
 </body>
 
 </html>
