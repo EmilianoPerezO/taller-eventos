@@ -1,5 +1,6 @@
 function saludo() {
     alert('Hola!');
+    event.stopPropagation()
 }
 
 var div = document.getElementById("idDiv");
